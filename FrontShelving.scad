@@ -30,6 +30,9 @@ translate([-4, -0.5, 0])
 color("grey")
 translate([19, -0.5, 0])
     cube([0.5, 7.5, 140]);
+color("grey")
+translate([-4, 0, -0.5])
+    cube([100.5, room_width + 0.5, 0.5]);
 
 
 // Door
